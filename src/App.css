@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+.podnet {
+  display: none;
+}
+
+.active {
+  display: block
+}
+
+.hidden {
+  display:none;
+}
+.show{
+  display:block;
+}
+.click-state > ul{
+  display:block;
+}
+ul {
+  list-style: none;
+}
+
+body{
+  display: flex;
+    justify-content: flex-start;
+    max-height: 1000px;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+}
+#root{
+  display: flex;
+}
+.formular-div {
+  height: 800px;
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+}
+.formular{
+  display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-around;
+}
+img{
+  width: 197px;
+    height: 200px;
+}
+.item{
+  cursor: pointer;
+}
